@@ -7,7 +7,7 @@ import logoicons from '../images/logoicons.jpg';
 const Home = () => {
  return ( <>
    <Navbar/>
-   <div className="my-mother bg-landing xs-down-8 down-2 my-bottom-50">
+   <div className="my-mother xs-down-10 down-4 my-bottom-50">
    <div className="black bmetext  xs-off-1 xs-8 xs-px20 px30 bold alice centered xs-down-9 down-2">BME Gene Bank is pioneering big data solutions in Biology</div>
     <div className="xs-off-2 centered xs-6 off-3 my-col-5">
      <Type/>
@@ -25,14 +25,14 @@ const Home = () => {
     
 
     </div>
-    <div className="my-col-6 xs-10 mg-5 xs-down-4 down-8">
-      <div className="px20 bold xs-off-1 xs-down-2 blue">Our Mission</div>
-      <div className="px12 xs-down-2 xs-off-1">To create a repository of genetic data and position the
+    <div className="my-col-6 xs-11 mg-5 xs-down-4 down-8">
+      <div className="px20 bold xs-down-2 blue">Our Mission</div>
+      <div className="px12 xs-down-2">To create a repository of genetic data and position the
         department of Biomedical Engineering, University of Ilorin
         at the forefront of genomic studies, facilitating genetic based research,
-        , experience and opportunites for all studnets and researchers.
+        experience and opportunites for all students and researchers.
       </div>
-      <div className="px12 xs-down-2 xs-off-1 down-1">We are committed to preserving genetic diversity, enabling groundbreaking research, and fostering, collaborations that contribute to
+      <div className="px12 xs-down-2 down-1">We are committed to preserving genetic diversity, enabling groundbreaking research, and fostering, collaborations that contribute to
         a better understanding of life's fundamental building blocks. Our dedication to excellence drives us to safeguard genetic information for
         current and future generations, ensuring it remains a valubale resource for scinetific innovation and biodiversity conservation.
       </div>
@@ -87,12 +87,12 @@ const Home = () => {
      </div>
     </div>
     <div className="my-col-10 xs-8">
-      <div className="down-2 xs-down-8 xs-off-2 off-1">About BME Gene Bank <i className="fas fa-solid blue fa-circle-arrow-right"/></div>
+      <div className="down-2 xs-down-8 textleft off-1">About BME Gene Bank <i className="fas fa-solid blue fa-circle-arrow-right"/></div>
     </div>
-    <div className="my-col-3">
-      <div className="off-3 xs-off-1"><img className="logoicons" src={logoicons} alt=""/></div>
+    <div className="my-col-3 textleft">
+      <div className="off-3"><img className="logoicons" src={logoicons} alt=""/></div>
     </div>
-    <div className="my-col-6 xs-8 xs-off-1">
+    <div className="my-col-6 textleft xs-8">
       <div className="px12 genetext">BME Gene Bank was founded in 2023 under the leadership of the Head of the Department of Biomedical Engineering,
       Dr. Yahaya Suleiman Abimbola and Engr. Mrs T.M. Ajibola.</div>
       <div className="px12 xs-down-2 genetext down-1">It was created to address the department's researchers, staff and students inability to perform genetic research
